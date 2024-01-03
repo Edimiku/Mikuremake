@@ -73,11 +73,11 @@ global.GoatBot = {
 	eventCommandsFilesPath: [], // [{ filePath: "", commandName: [] }
 	aliases: new Map(), // store all aliases
 	onFirstChat: [], // store all onFirstChat [{ commandName: "", threadIDsChattedFirstTime: [] }}]
-	onChat: [], // store all onChat
-	onEvent: [], // store all onEvent
-	onReply: new Map(), // store all onReply
-	onReaction: new Map(), // store all onReaction
-	onAnyEvent: [], // store all onAnyEvent
+	runChat: [], // store all onChat
+	runEvent: [], // store all onEvent
+	runReply: new Map(), // store all onReply
+	runReaction: new Map(), // store all onReaction
+	runAnyEvent: [], // store all onAnyEvent
 	config, // store config
 	configCommands, // store config commands
 	envCommands: {}, // store env commands
